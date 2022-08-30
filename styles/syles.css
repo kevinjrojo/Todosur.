@@ -1,0 +1,175 @@
+#body {
+    background-image: url(../img/miradormansa-.jpg);
+    background-size:contain;
+    margin: 0px;
+}
+.index {
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.774);
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.h1 {
+    margin-top: 0px;
+    padding: 1px;
+    color: white;
+}
+.h1:hover {
+    color: black;
+    background-color: white;
+
+}
+.enlaces {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    
+}
+
+.paginas {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.paginas:hover {
+    color: black;
+    background-color: white;
+}
+.maqueta {
+    margin-left: 350px;
+    margin-right: 350px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 80px;
+}
+.main {
+    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.829);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.829);
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+
+}
+.titulo {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.presentacion {
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+.input{
+    border: 2px black solid;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.541);
+    height: 40px;
+    font-size: 20px;
+}
+.boton {
+    box-shadow: 09px rgb(255, 255, 255);
+    cursor: pointer;
+    border: 2px rgb(0, 0, 0) solid ;
+    color: rgba(0, 0, 0, 0.568);
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.541);
+    width: 100px;
+    font-size: 25px;
+}
+.boton:hover{
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+}
+.boton:active {
+    background-color: #b9b9b9;
+    box-shadow: 0 5px rgb(167, 167, 167);
+    transform: translateY(4px);
+}
+#footer {
+    margin-top: 400px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.829);
+   
+}
+.lista {
+    padding-top: 10px; 
+    color: white;
+    
+}
+.lista a {
+    
+    color: white;
+}
+.icon {
+    margin-left: 85%;
+}
+.icon :hover {
+    transform:scale(1.2);
+    transition: 30ms;
+}
+.contactos{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 30px;
+    height: 30px;
+}
+.galery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content:space-around;
+    
+}
+.img {
+    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.795);
+    background-size: cover ;
+    height: 350px;
+    width: 250px;
+    margin-top: 70px;
+    border: 4px black solid ;
+    border-radius: 10px;
+    
+}
+.img:hover {
+    transform:scale(1.1);
+    transition: 30ms;
+}
+.gastronomia {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgba(0, 0, 0, 0.774);
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.item{
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: rgba(0, 0, 0, 0.774);
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    transition: background-color, margin-right, margin-left ,1s ;
+}
+.item:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.774);
+    margin-right: 0px;
+    margin-left: 0px;
+   
+}
+.comida {
+    width: 400px;
+    height: 300px;
+}
+
