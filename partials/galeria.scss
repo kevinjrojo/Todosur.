@@ -1,0 +1,20 @@
+.galery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content:space-around;
+    
+}
+.img {
+    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.795);
+    background-size: cover ;
+    height: 350px;
+    width: 250px;
+    margin-top: 70px;
+    border: 4px black solid ;
+    border-radius: 10px;
+    
+}
+.img:hover {
+    transform:scale(1.1);
+    transition: 30ms;
+}

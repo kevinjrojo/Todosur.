@@ -1,0 +1,29 @@
+.gastronomia {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgba(0, 0, 0, 0.774);
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.item{
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: rgba(0, 0, 0, 0.774);
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    transition: background-color, margin-right, margin-left ,1s ;
+}
+.item:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.774);
+    margin-right: 0px;
+    margin-left: 0px;
+   
+}
+.comida {
+    width: 400px;
+    height: 300px;
+}

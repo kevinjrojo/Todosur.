@@ -1,0 +1,31 @@
+#footer {
+    margin-top: 400px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.829);
+   
+}
+.ayudas {
+    display: block;
+}
+.lista {
+    padding-top: 10px; 
+    color: white;
+    
+}
+.lista a {
+    
+    color: white;
+}
+.icon {
+    margin-left: 85%;
+}
+.icon :hover {
+    transform:scale(1.2);
+    transition: 30ms;
+}
+.contactos{
+    border-radius: 5px;
+    background-color: $color-principal;
+    width: 30px;
+    height: 30px;
+}

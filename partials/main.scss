@@ -1,0 +1,52 @@
+.maqueta {
+    margin-left: 350px;
+    margin-right: 350px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 80px;
+    nav {
+        box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.829);
+        text-align: center;
+        background: $color-principal;
+        padding: 20px;
+        display: grid;
+        justify-content: center;
+        h2 {
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+        }
+    }
+}
+.presentacion {
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+.input{
+    border: 2px black solid;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.541);
+    height: 40px;
+    font-size: 20px;
+}
+.boton {
+    box-shadow: 09px rgb(255, 255, 255);
+    cursor: pointer;
+    border: 2px rgb(0, 0, 0) solid ;
+    color: rgba(0, 0, 0, 0.568);
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.541);
+    width: 100px;
+    font-size: 25px;
+    &:hover {
+        color: rgb(0, 0, 0);
+        background-color: #fff;
+        &:active {
+            background-color: #b9b9b9;
+            box-shadow: 0 5px rgb(167, 167, 167);
+            transform: translateY(4px);
+        }
+    }
+}
