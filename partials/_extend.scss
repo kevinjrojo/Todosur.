@@ -1,0 +1,31 @@
+%botonbuscar {
+    box-shadow: 9px rgb(255, 255, 255);
+    cursor: pointer;
+    border: 2px rgb(0, 0, 0) solid;
+    color: rgba(0, 0, 0, 0.568);
+    margin-top: 20px;
+    font-family: "Times New Roman", Times, serif;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.541);
+    width: 100px;
+    font-size: 25px;
+}
+%titulo {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+%index {
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    background-color:  rgba(0, 0, 0, 0.774);
+    display: flex;
+    justify-content: space-between;
+}
+%contactos {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 30px;
+    height: 30px;
+}
